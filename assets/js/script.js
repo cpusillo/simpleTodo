@@ -36,6 +36,8 @@ $("input[type='text']").keypress(function(event){
     }
 });
 
+// Define with clicking the plus button does.
 $("#togglePlus").click(function (){
+   // Toggle the input box.
     $("input[type='text']").fadeToggle();
 })
